@@ -1,4 +1,3 @@
-
 # 🎓 Student Management Portal 
 
 A simple, clean, and effective PHP-based Student Portal to manage student records. This application allows users to **register new students**, **search for existing students**, **view all students**, and **delete students by their ID**.
