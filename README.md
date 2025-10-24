@@ -102,41 +102,22 @@ $conn = new mysqli("localhost", "root", "", "student_portal");
 # Then, open your browser and visit:
 http://localhost/student-portal/home.php
 
-# 🧭 Usage Guide
+## 🧭 Usage Guide
 
-### 🏠 Home (`home.php`)
-Main navigation page of the portal that links to all core functions — register, view, search, and delete students.
+* **🏠 Home (`home.php`):** 
+    Serves as the main dashboard, providing navigation buttons to access all key features: Registering, Viewing, Searching, and Deleting students. [cite: home.jpg]
 
-### 📝 Register (`index.php`)
-Add new student details such as name, age, course, and contact information.  
-Data is validated and stored securely in the MySQL database.
+* **📝 Register (`index.php` -> `submit.php`):** 
+    Access the registration form (likely `index.php`) to add new students. Enter details like ID, name, email, phone, course, address, and join date. Submitting the form (`submit.php`) validates and saves the data to the MySQL database. [cite: register.jpg]
 
-### 📋 View (`view.php`)
-Displays a complete list of all registered student records in a structured table format.
+* **📋 View Students (`view.php`):** 
+    Displays a table containing all student records currently stored in the database. Each row shows student details and includes a "Delete" button. [cite: view-students.jpg]
 
-### 🔍 Search (`search.php`)
-Search for students by their **name**, **course**, or **student ID**.
+* **🔍 Search Students (`search.php`):** 
+    Allows you to find specific students by entering their **Student ID** or **Name** into the search field. Matching records (if any) will be displayed. [cite: search.jpg]
 
-### ❌ Delete (`delete.php`)
-Remove student records by their unique ID quickly and safely.
+* **❌ Delete Student (`delete.php`):** 
+    Accessed via the "Delete" buttons on the `view.php` page or potentially through a dedicated delete form (if `delete.php` includes one). Removes a student record from the database based on their unique ID. [cite: delete.jpg]
 
-# 🔮 Future Enhancements
 
-### ✏️ Edit and Update Student Records
-Allow users to modify existing student details directly from the portal.
-
-### 🔑 Admin Login and Authentication
-Add a secure admin login system for managing access to student data.
-
-### 📊 Export Student Data as CSV/PDF
-Enable exporting all student records into downloadable formats like CSV or PDF.
-
-### 📸 Add Profile Pictures for Students
-Include profile image upload functionality for each student record.
-
-### 🗂 Pagination for Large Student Lists
-Implement pagination to improve performance when displaying large datasets.
-
-### 📱 Mobile-First UI Improvements
-Redesign the interface for better mobile and tablet usability.
 
