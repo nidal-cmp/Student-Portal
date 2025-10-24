@@ -54,15 +54,22 @@ The goal of this project is to:
 
 ---
 
-## 🖼 Project Screenshots
+## 📷 Screenshots
 
-| 🏠 Home Page | 📝 Register Page | 📋 View Students |
-|---------------|------------------|------------------|
-| ![Home Page](./home.png) | ![Register Page](./register.png) | ![View Students](./view-students.png) |
+### 🏠 Home Page  
+![Home Page](assets/screenshots/home.png) 
 
-| 🔍 Search Student | ❌ Delete Student |
-|------------------|------------------|
-| ![Search Page](./search.png) | ![Delete Page](./delete.png) |
+### 📝 Register Student Page 
+![Register Form](assets/screenshots/register.png) 
+
+### 📋 Student List View  
+![View_Page](assets/screenshots/view-students.png) 
+
+### 🔍 Search Student Page 
+![Search_Page](assets/screenshots/search.png) 
+
+### ❌ Delete Student Page 
+![Delete_Page](assets/screenshots/delete.png)
 
 ---
 
