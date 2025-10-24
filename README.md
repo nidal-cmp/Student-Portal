@@ -91,3 +91,42 @@ $conn = new mysqli("localhost", "root", "", "student_portal");
 # 6️⃣ Start your Apache and MySQL servers using XAMPP or WAMP
 # Then, open your browser and visit:
 http://localhost/student-portal/home.php
+
+# 🧭 Usage Guide
+
+### 🏠 Home (`home.php`)
+Main navigation page of the portal that links to all core functions — register, view, search, and delete students.
+
+### 📝 Register (`index.php`)
+Add new student details such as name, age, course, and contact information.  
+Data is validated and stored securely in the MySQL database.
+
+### 📋 View (`view.php`)
+Displays a complete list of all registered student records in a structured table format.
+
+### 🔍 Search (`search.php`)
+Search for students by their **name**, **course**, or **student ID**.
+
+### ❌ Delete (`delete.php`)
+Remove student records by their unique ID quickly and safely.
+
+# 🔮 Future Enhancements
+
+### ✏️ Edit and Update Student Records
+Allow users to modify existing student details directly from the portal.
+
+### 🔑 Admin Login and Authentication
+Add a secure admin login system for managing access to student data.
+
+### 📊 Export Student Data as CSV/PDF
+Enable exporting all student records into downloadable formats like CSV or PDF.
+
+### 📸 Add Profile Pictures for Students
+Include profile image upload functionality for each student record.
+
+### 🗂 Pagination for Large Student Lists
+Implement pagination to improve performance when displaying large datasets.
+
+### 📱 Mobile-First UI Improvements
+Redesign the interface for better mobile and tablet usability.
+
