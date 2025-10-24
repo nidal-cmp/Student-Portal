@@ -57,20 +57,23 @@ The goal of this project is to:
 ## 📷 Screenshots
 
 ### 🏠 Home Page  
-![Home Page](assets/screenshots/home.png) 
+<img src="assets/screenshots/home.png" alt="Home Page" width="500"/> 
+
 
 ### 📝 Register Student Page 
-![Register Form](assets/screenshots/register.png) 
+<img src="assets/screenshots/register.png" alt="Register Form" width="500"/> 
+
 
 ### 📋 Student List View  
-![View_Page](assets/screenshots/view-students.png) 
+<img src="assets/screenshots/view-students.png" alt="View_Page" width="500"/> 
+
 
 ### 🔍 Search Student Page 
-![Search_Page](assets/screenshots/search.png) 
+<img src="assets/screenshots/search.png" alt="Search_Page" width="500"/> 
+
 
 ### ❌ Delete Student Page 
-![Delete_Page](assets/screenshots/delete.png)
-
+<img src="assets/screenshots/delete.png" alt="Delete_Page" width="500"/>
 ---
 
 ## ⚙️ Installation & Setup
